@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Landing Page</title>
+   <link rel="shortcut icon" href="assets/images/logo.png" type="image/x-icon">
+
+   <!-- owl carousel -->
+   <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+   <!-- font aswesome -->
+   <link rel="stylesheet" href="assets/css/fontaswesome.min.css">
+   <!-- bootstrap css -->
+   <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+   <!-- style css -->
+   <link rel="stylesheet" href="assets/css/style.css">
+   <!-- responsive css -->
+   <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+<body>
+
+  <!-- Start: main header -->
+  <div class="main_top">
+    <div class="container">
+      <div class="header_location">
+        <div class="single_location">
+          <span><i class="fa-solid fa-location-dot"></i></span>
+          <a href="#">Company Address type here</a>
+        </div>
+        <div class="single_location">
+          <span><i class="fa-solid fa-phone"></i></span>
+          <a href="#">+94 000 00000</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <header class="main_header">
+    <div class="header-area">
+      <div class="header-title">
+        <div class="container">
+          <div class="header-top">
+            <div class="header-logo">
+              <a href="#"><img src="assets/images/logo.png" alt="logo/img"></a>
+            </div>
+            <!-- mobil menu -->
+            <div class="menu">
+              <nav>
+                <ul>
+                  <li><a href="index.html">Home</a></li>
+                  <li><a class="active" href="Project_Detail.html">Portfolio</a></li>
+                  <li><a href="#">Services</a></li>
+                  <li><a href="About-us.html">About us</a></li>
+                  <li><a href="Blogs.html">Blog</a></li>
+                </ul>
+              </nav>
+              <div class="login">
+                <ul>
+                  <li><a class="btn1" href="#">Contact us</a></li>
+                </ul>
+              </div>
+            </div>
+            <!-- mobil menu start -->
+            <div class="menu-bar">
+              <div id="toggleNav-icon" class="menu_icon menu-ba">
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+            </div>
+            <!-- mobil menu end -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- End: main header -->
+
+  <!-- Start Blog Header Area -->
+  <!-- Title Here -->
+  <section class="blog_main_con project_p">
+    <div class="container">
+      <div class="blog_warper">
+        <div class="sub_menu">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><i class="fa-solid fa-angle-right"></i></li>
+            <li><a href="#" class="news">Services</a></li>
+          </ul>
+        </div>
+        <div class="hading_content">
+          <h2>FERME3D</h2>
+          <p>Découvrez Ferme3D : Transformez Votre Agriculture avec la Technologie de Demain!</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- End Blog Header Area -->
+
+  <!-- Start project Area -->
+  <section class="project_area">
+    <div class="container">
+      <div class="project_warper">
+        <div class="project_details">
+          <!-- Video Area -->
+          <div class="video_area">
+            <div class="video_box">
+              <div class="video-popup">
+                <div class="play-icon" onclick="openVideoPopup()">
+                  <img src="assets/images/Icon - Play.png" alt="Play" />
+                </div>
+                <img src="assets/images/Video Image.png" alt="Video Preview" class="preview-image" onclick="openVideoPopup()"/>
+                <div class="video-overlay" id="video-overlay">
+                  <div class="video-content">
+                    <span class="close-button" onclick="closeVideoPopup()">&times;</span>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/K87aFjB7Ff0?si=Ke9WR4M8Tlw6cZ0K" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Content Area -->
+          <div class="content_area">
+            <div class="all_content">
+              <div class="p_title">
+                <h2>Transformez Votre Agriculture avec la Technologie de Demain!</h2>
+              </div>
+              <div class="p_dis">
+                <p>Plongez dans l'avenir de l'agriculture avec Ferme3D, où la
+                  tradition rencontre l'innovation de pointe. Notre solution
+                  révolutionnaire combine un dashboard intuitif et une
+                  application mobile puissante pour révolutionner la manière
+                  dont vous gérez votre ferme.</p>
+              </div>
+
+              <div class="p_list_item">
+                <ul class="check-list">
+                  <li>
+                    <i class="fas fa-check-circle"></i>
+                    <p>Dashboard Intuitif pour un Suivi Complet</p>
+                  </li>
+                  <li>
+                    <i class="fas fa-check-circle"></i>
+                    <p>Application Mobile Connectée</p>
+                  </li>
+                  <li>
+                    <i class="fas fa-check-circle"></i>
+                    <p>Optimisation de la Production</p>
+                  </li>
+                  <li>
+                    <i class="fas fa-check-circle"></i>
+                    <p>Prise de Décisions Éclairées</p>
+                  </li>
+                </ul>
+              </div>
+              <div class="p_page_btn">
+                <a href="#">Commander</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End project Area -->
+
+  <!-- Start Newsletter Area -->
+  <section class="main_newsletter_area">
+    <div class="container">
+      <div class="newsletter_area">
+        <h2 class="ht_40">Newsletter</h2>
+        <p class="pt_20">Have an idea for an awesome project? We'd love to help make it real.</p>
+        <form action="">
+          <div class="form_box">
+            <input type="text" name="email" placeholder="Enter email address">
+            <button type="submit">Sundcribe</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+  <!-- End Newsletter Area -->
+
+  <!-- Start Footer Area -->
+  <footer class="footerArea">
+    <div class="container">
+      <div class="row mb_63">
+        <div class="col-lg-4 col-sm-6">
+          <widget class="footerWidget">
+            <a href="javascript:void(0);"><img src="assets/images/logo.png" alt=""></a>
+            <ul>
+              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+              <li><a class="mt_40" href="javascript:void(0);">contact@digital.com</a></li>
+            </ul>
+          </widget>
+        </div>
+        <div class="col-lg-2 col-sm-6">
+          <widget class="footerWidget">
+            <h4 class="widget_title">About us</h4>
+            <ul>
+              <li><a href="javascript:void(0);">Company</a></li>
+              <li><a href="javascript:void(0);">Portfolio</a></li>
+              <li><a href="javascript:void(0);">Teams</a></li>
+              <li><a href="javascript:void(0);">Contact us</a></li>
+            </ul>
+          </widget>
+        </div>
+        <div class="col-lg-3 col-sm-6">
+          <widget class="footerWidget">
+            <h4 class="widget_title">Contact us</h4>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+            <li><a class="mt_56" href="javascript:void(0);">+9000 0000 000</a></li>
+          </widget>
+        </div>
+        <div class="col-lg-3 col-sm-6">
+          <widget class="footerSocial">
+            <div class="ab_social">
+              <a href="javascript:void(0);"><i class="fa-brands fa-facebook-f"></i></a>
+              <a href="javascript:void(0);"><i class="fa-brands fa-instagram"></i></a>
+              <a href="javascript:void(0);"><i class="fa-brands fa-twitter"></i></a>
+              <a href="javascript:void(0);"><i class="fa-brands fa-linkedin-in"></i></a>
+            </div>
+          </widget>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer_buttom">
+      <div class="container">
+        <div class="copyright">
+          <p>Copyright ® 2024 Company All rights Rcerved</p>
+        </div>
+      </div>
+    </div>
+
+  </footer>
+  <!-- End Footer Area -->
+
+  <!-- jquery js -->
+  <script src="assets/js/jquery-3.6.1.min.js"></script>
+  <!-- bootstrap js -->
+  <script src="assets/js/bootstrap.bundle.min.js"></script>
+  <!-- owl carousel js -->
+  <script src="assets/js/owl.carousel.min.js"></script>
+  <!-- script js -->
+  <script src="assets/js/script.js"></script>
+</body>
+</html>
